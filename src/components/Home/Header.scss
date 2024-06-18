@@ -1,5 +1,26 @@
-.circle{
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 458px;
+
+  #circle {
     width: 458px;
     height: 458px;
-}
+    position: relative;
+    bottom:50px;
+  }
 
+  #logo {
+    position: relative;
+    bottom: 300px;
+  }
+
+  #chart {
+    position: relative;
+    bottom: 200px;
+    width: 171px;
+    height: 192px;
+  }
+}
