@@ -1,7 +1,19 @@
+$primary-color: #5175ff;
+$dark-grey: #333950;
+$light-grey: #747B95;
+$light-blue:#829CFF;
+$almost-black:#25293A;
+$tomato:#F05B5B;
+
+
 *{
     font-family: "kumbh sans", sans-serif ;
+
 }
 
 body{
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
