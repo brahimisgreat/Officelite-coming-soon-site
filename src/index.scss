@@ -6,14 +6,25 @@ $almost-black:#25293A;
 $tomato:#F05B5B;
 
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *{
     font-family: "kumbh sans", sans-serif ;
-
-}
-
-body{
-    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fafafa; ;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
 }
