@@ -6,7 +6,7 @@ import chart from '../../assets/home/illustration-charts.svg'
 
 export const Header = () => {
   return (
-    <div className='header text-4xl relative flex flex-col justify-center items-center gap-16'>
+    <div className='header text-4xl relative flex flex-col justify-center items-center gap-16 '>
       <img src={rings} className='absolute h-full w-screen bottom-32'/>
       <img src={logo} className=''/>
       <div className=''>

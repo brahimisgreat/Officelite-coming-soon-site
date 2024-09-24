@@ -7,20 +7,21 @@ export const PlanCards = ({
   essential,
   memory,
   perk,
+  color,
 }) => {
   return (
-    <div>
-      <div>
-        <h3>{title}</h3>
-        <h1>{price}</h1>
-        <p>{peruser}</p>
+    <div className="w-full flex flex-col gap-2">
+      <div className={`${color}`}>
+        <h3 className="text-xl font-bold">{title}</h3>
+        <h1 className="text-6xl font bold">{price}</h1>
+        <p >{peruser}</p>
       </div>
       <div>
         <p>{essential}</p>
         <p>{memory}</p>
         <p>{perk}</p>
       </div>
-      <button>Get Started</button>
+      <button className="h-14 w-44 rounded-3xl">Get Started</button>
     </div>
   );
 };

@@ -10,6 +10,7 @@ export const data = [
     essential: "Basic document collaboration",
     memory: "2 GB storage",
     perk: "Great security and support",
+    color:"bg-white"
 
 } ,
 { 
@@ -19,6 +20,7 @@ export const data = [
     essential: "All essential integrations",
     memory: "50 GB storage",
     perk: "More control and insights",
+    color:'bg-blue-600'
 
 } ,
 { 
@@ -28,6 +30,7 @@ export const data = [
     essential: "Robust work management",
     memory: "100GB storage",
     perk: "VIP support",
+    color:'bg-white'
 
 }   
 ];
