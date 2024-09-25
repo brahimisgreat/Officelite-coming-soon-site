@@ -1,0 +1,49 @@
+.plans {
+}
+
+.basic,
+.pro,
+.ultimate {
+  height: 508px;
+  border: solid 1px blue;
+  border-radius: 13px;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.25);
+}
+
+.basic {
+  background: #fff;
+}
+
+.basic button {
+    border-radius: 28px;
+background: #dfe3f3;
+}
+
+.basic button span{
+    color: #5175FF;
+   
+
+
+}
+
+.pro {
+  background: #5175ff;
+}
+.pro button {
+    border-radius: 28px;
+    background: #fff;
+    color: #5175FF;
+    font-weight: 700;
+}
+
+
+.ultimate {
+  background: #fff;
+}
+
+.ultimate button {
+    border-radius: 28px;
+    background: #dfe3f3;
+    color: #5175FF;
+    font-weight: 700;
+}
