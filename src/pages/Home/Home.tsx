@@ -3,6 +3,7 @@ import bg from "../assets/home/bg-pattern-header.svg";
 import { Header } from "./Header";
 import { GetStarted } from "./GetStarted";
 import { Plans } from "./Plans";
+import { Last } from "./Last";
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
       <Header />
       <GetStarted />
       <Plans />
+      <Last />
       
     </div>
   );

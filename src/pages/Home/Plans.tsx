@@ -24,7 +24,7 @@ export const Plans = () => {
         <h1 className="text-6xl font-bold">$9.99</h1>
         <p > Per user, billed monthly</p>
       </div>
-      <div className=' flex flex-col gap-4'>
+      <div className='flex flex-col gap-4'>
         <p className='opacity-75'>All essential inergrations</p>
         <p className='opacity-75'>50 GB storage</p>
         <p className='opacity-75'>More control and insights</p>
