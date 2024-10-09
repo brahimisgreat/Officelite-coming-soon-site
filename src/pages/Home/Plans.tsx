@@ -25,9 +25,9 @@ export const Plans = () => {
         <p > Per user, billed monthly</p>
       </div>
       <div className=' flex flex-col gap-4'>
-        <p>All essential inergrations</p>
-        <p>50 GB storage</p>
-        <p>More control and insights</p>
+        <p className='opacity-75'>All essential inergrations</p>
+        <p className='opacity-75'>50 GB storage</p>
+        <p className='opacity-75'>More control and insights</p>
       </div>
       <button className="h-14 w-44 rounded-3xl">Try for Free</button>
     </div>
